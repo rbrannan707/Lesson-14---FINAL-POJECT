@@ -1,0 +1,112 @@
+/* styles.css */
+
+body {
+    background-color:lightblue;
+    font-family: Ariel, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+/** Header Styles **/
+   
+img {
+    max-width: 150%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/** Header Styles **/
+
+h1
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Navigation Bar Styles */
+
+nav ul {
+    list-style-type: none;
+    background-color: darkred;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: rgb(0, 58, 139);
+    color: #ffffff;
+}
+
+nav .right {
+    background-color: darkgoldenrod;
+    color: #000000;
+    float: right;
+}
+
+nav .active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+nav {
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/* Table Styles */
+table {
+width: 100%;
+}
+
+table,
+th {
+    font-size: 15px;
+}
+
+td {
+    border: 1px solid #FFF;
+    background-color: lightyellow; border-collapse: collapse;
+    padding: 10px;
+    font-size: 16px;
+}
+
+th {
+    background-color: darkred;
+    color: white;
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+background-color: darkred;
+color: white;
+padding-top: 25;
+padding-right: 25;
+padding-bottom: 25;
+padding-left: 25;
+text-align: center;
+}
+
+
+
+
+
+
+
+
